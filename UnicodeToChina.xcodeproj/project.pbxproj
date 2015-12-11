@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC78A7941C1AA92C00CC5921 /* IDEFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC78A7921C1AA92C00CC5921 /* IDEFoundation.framework */; };
+		EC78A7951C1AA92C00CC5921 /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC78A7931C1AA92C00CC5921 /* IDEKit.framework */; };
+		EC78A7981C1AA97800CC5921 /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC78A7961C1AA97800CC5921 /* DVTFoundation.framework */; };
+		EC78A7991C1AA97800CC5921 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC78A7971C1AA97800CC5921 /* DVTKit.framework */; };
+		EC78A79B1C1AA98000CC5921 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC78A79A1C1AA98000CC5921 /* Cocoa.framework */; };
+		ECC6C2C21C1ABD5000406C6B /* DazRing.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6C2C11C1ABD5000406C6B /* DazRing.png */; };
+		ECC6C2C41C1ABD7500406C6B /* DazStarOutline.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6C2C31C1ABD7500406C6B /* DazStarOutline.png */; };
+		ECDFC5041C1AA7260089868F /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDFC5031C1AA7260089868F /* AppKit.framework */; };
+		ECDFC5061C1AA7260089868F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDFC5051C1AA7260089868F /* Foundation.framework */; };
+		ECDFC50A1C1AA7260089868F /* UnicodeToChina.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = ECDFC5091C1AA7260089868F /* UnicodeToChina.xcscheme */; };
+		ECDFC50D1C1AA7260089868F /* UnicodeToChina.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDFC50C1C1AA7260089868F /* UnicodeToChina.m */; };
+		ECDFC51C1C1AA7890089868F /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDFC51B1C1AA7890089868F /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC08C06A1C1AB03100373335 /* IDEFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEFoundation.h; sourceTree = "<group>"; };
+		EC78A7921C1AA92C00CC5921 /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDEFoundation.framework; sourceTree = "<group>"; };
+		EC78A7931C1AA92C00CC5921 /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDEKit.framework; sourceTree = "<group>"; };
+		EC78A7961C1AA97800CC5921 /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DVTFoundation.framework; sourceTree = "<group>"; };
+		EC78A7971C1AA97800CC5921 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DVTKit.framework; sourceTree = "<group>"; };
+		EC78A79A1C1AA98000CC5921 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cocoa.framework; sourceTree = "<group>"; };
+		ECC6C2C11C1ABD5000406C6B /* DazRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazRing.png; sourceTree = "<group>"; };
+		ECC6C2C31C1ABD7500406C6B /* DazStarOutline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazStarOutline.png; sourceTree = "<group>"; };
+		ECDFC5001C1AA7260089868F /* UnicodeToChina.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnicodeToChina.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDFC5031C1AA7260089868F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		ECDFC5051C1AA7260089868F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		ECDFC5091C1AA7260089868F /* UnicodeToChina.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = UnicodeToChina.xcscheme; path = UnicodeToChina.xcodeproj/xcshareddata/xcschemes/UnicodeToChina.xcscheme; sourceTree = SOURCE_ROOT; };
+		ECDFC50B1C1AA7260089868F /* UnicodeToChina.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnicodeToChina.h; sourceTree = "<group>"; };
+		ECDFC50C1C1AA7260089868F /* UnicodeToChina.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnicodeToChina.m; sourceTree = "<group>"; };
+		ECDFC5111C1AA7260089868F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECDFC51A1C1AA7890089868F /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		ECDFC51B1C1AA7890089868F /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECDFC4FE1C1AA7260089868F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC78A79B1C1AA98000CC5921 /* Cocoa.framework in Frameworks */,
+				EC78A7941C1AA92C00CC5921 /* IDEFoundation.framework in Frameworks */,
+				EC78A7981C1AA97800CC5921 /* DVTFoundation.framework in Frameworks */,
+				EC78A7991C1AA97800CC5921 /* DVTKit.framework in Frameworks */,
+				ECDFC5041C1AA7260089868F /* AppKit.framework in Frameworks */,
+				EC78A7951C1AA92C00CC5921 /* IDEKit.framework in Frameworks */,
+				ECDFC5061C1AA7260089868F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECDFC4F71C1AA7260089868F = {
+			isa = PBXGroup;
+			children = (
+				ECDFC5071C1AA7260089868F /* UnicodeToChina */,
+				ECDFC5021C1AA7260089868F /* Frameworks */,
+				ECDFC5011C1AA7260089868F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECDFC5011C1AA7260089868F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECDFC5001C1AA7260089868F /* UnicodeToChina.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECDFC5021C1AA7260089868F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC78A79A1C1AA98000CC5921 /* Cocoa.framework */,
+				EC78A7961C1AA97800CC5921 /* DVTFoundation.framework */,
+				EC78A7971C1AA97800CC5921 /* DVTKit.framework */,
+				EC78A7921C1AA92C00CC5921 /* IDEFoundation.framework */,
+				EC78A7931C1AA92C00CC5921 /* IDEKit.framework */,
+				ECDFC5031C1AA7260089868F /* AppKit.framework */,
+				ECDFC5051C1AA7260089868F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECDFC5071C1AA7260089868F /* UnicodeToChina */ = {
+			isa = PBXGroup;
+			children = (
+				ECC6C2C31C1ABD7500406C6B /* DazStarOutline.png */,
+				ECC6C2C11C1ABD5000406C6B /* DazRing.png */,
+				EC08C06A1C1AB03100373335 /* IDEFoundation.h */,
+				ECDFC51A1C1AA7890089868F /* RegexKitLite.h */,
+				ECDFC51B1C1AA7890089868F /* RegexKitLite.m */,
+				ECDFC50B1C1AA7260089868F /* UnicodeToChina.h */,
+				ECDFC50C1C1AA7260089868F /* UnicodeToChina.m */,
+				ECDFC5081C1AA7260089868F /* Supporting Files */,
+			);
+			path = UnicodeToChina;
+			sourceTree = "<group>";
+		};
+		ECDFC5081C1AA7260089868F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECDFC5111C1AA7260089868F /* Info.plist */,
+				ECDFC5091C1AA7260089868F /* UnicodeToChina.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECDFC4FF1C1AA7260089868F /* UnicodeToChina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDFC5141C1AA7260089868F /* Build configuration list for PBXNativeTarget "UnicodeToChina" */;
+			buildPhases = (
+				ECDFC4FC1C1AA7260089868F /* Sources */,
+				ECDFC4FD1C1AA7260089868F /* Resources */,
+				ECDFC4FE1C1AA7260089868F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnicodeToChina;
+			productName = UnicodeToChina;
+			productReference = ECDFC5001C1AA7260089868F /* UnicodeToChina.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECDFC4F81C1AA7260089868F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ApesStudio;
+				TargetAttributes = {
+					ECDFC4FF1C1AA7260089868F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = ECDFC4FB1C1AA7260089868F /* Build configuration list for PBXProject "UnicodeToChina" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECDFC4F71C1AA7260089868F;
+			productRefGroup = ECDFC5011C1AA7260089868F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECDFC4FF1C1AA7260089868F /* UnicodeToChina */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECDFC4FD1C1AA7260089868F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDFC50A1C1AA7260089868F /* UnicodeToChina.xcscheme in Resources */,
+				ECC6C2C41C1ABD7500406C6B /* DazStarOutline.png in Resources */,
+				ECC6C2C21C1ABD5000406C6B /* DazRing.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECDFC4FC1C1AA7260089868F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDFC51C1C1AA7890089868F /* RegexKitLite.m in Sources */,
+				ECDFC50D1C1AA7260089868F /* UnicodeToChina.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ECDFC5121C1AA7260089868F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		ECDFC5131C1AA7260089868F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		ECDFC5151C1AA7260089868F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DT_TOOLCHAIN_DIR)/usr/include",
+				);
+				INFOPLIST_FILE = UnicodeToChina/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apesstudio.UnicodeToChina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		ECDFC5161C1AA7260089868F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DT_TOOLCHAIN_DIR)/usr/include",
+				);
+				INFOPLIST_FILE = UnicodeToChina/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apesstudio.UnicodeToChina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECDFC4FB1C1AA7260089868F /* Build configuration list for PBXProject "UnicodeToChina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDFC5121C1AA7260089868F /* Debug */,
+				ECDFC5131C1AA7260089868F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDFC5141C1AA7260089868F /* Build configuration list for PBXNativeTarget "UnicodeToChina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDFC5151C1AA7260089868F /* Debug */,
+				ECDFC5161C1AA7260089868F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECDFC4F81C1AA7260089868F /* Project object */;
+}
