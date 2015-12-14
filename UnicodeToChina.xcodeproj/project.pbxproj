@@ -7,11 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC78A7941C1AA92C00CC5921 /* IDEFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC78A7921C1AA92C00CC5921 /* IDEFoundation.framework */; };
-		EC78A7951C1AA92C00CC5921 /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC78A7931C1AA92C00CC5921 /* IDEKit.framework */; };
-		EC78A7981C1AA97800CC5921 /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC78A7961C1AA97800CC5921 /* DVTFoundation.framework */; };
-		EC78A7991C1AA97800CC5921 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC78A7971C1AA97800CC5921 /* DVTKit.framework */; };
-		EC78A79B1C1AA98000CC5921 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC78A79A1C1AA98000CC5921 /* Cocoa.framework */; };
+		ECB6EE9B1C1EC88100520DBF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB6EE9A1C1EC88100520DBF /* Cocoa.framework */; };
 		ECDFC5041C1AA7260089868F /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDFC5031C1AA7260089868F /* AppKit.framework */; };
 		ECDFC5061C1AA7260089868F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDFC5051C1AA7260089868F /* Foundation.framework */; };
 		ECDFC50A1C1AA7260089868F /* UnicodeToChina.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = ECDFC5091C1AA7260089868F /* UnicodeToChina.xcscheme */; };
@@ -21,11 +17,7 @@
 
 /* Begin PBXFileReference section */
 		EC08C06A1C1AB03100373335 /* IDEFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEFoundation.h; sourceTree = "<group>"; };
-		EC78A7921C1AA92C00CC5921 /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDEFoundation.framework; sourceTree = "<group>"; };
-		EC78A7931C1AA92C00CC5921 /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDEKit.framework; sourceTree = "<group>"; };
-		EC78A7961C1AA97800CC5921 /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DVTFoundation.framework; sourceTree = "<group>"; };
-		EC78A7971C1AA97800CC5921 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DVTKit.framework; sourceTree = "<group>"; };
-		EC78A79A1C1AA98000CC5921 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cocoa.framework; sourceTree = "<group>"; };
+		ECB6EE9A1C1EC88100520DBF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		ECDFC5001C1AA7260089868F /* UnicodeToChina.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnicodeToChina.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDFC5031C1AA7260089868F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		ECDFC5051C1AA7260089868F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -42,12 +34,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC78A79B1C1AA98000CC5921 /* Cocoa.framework in Frameworks */,
-				EC78A7941C1AA92C00CC5921 /* IDEFoundation.framework in Frameworks */,
-				EC78A7981C1AA97800CC5921 /* DVTFoundation.framework in Frameworks */,
-				EC78A7991C1AA97800CC5921 /* DVTKit.framework in Frameworks */,
+				ECB6EE9B1C1EC88100520DBF /* Cocoa.framework in Frameworks */,
 				ECDFC5041C1AA7260089868F /* AppKit.framework in Frameworks */,
-				EC78A7951C1AA92C00CC5921 /* IDEKit.framework in Frameworks */,
 				ECDFC5061C1AA7260089868F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,11 +63,7 @@
 		ECDFC5021C1AA7260089868F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EC78A79A1C1AA98000CC5921 /* Cocoa.framework */,
-				EC78A7961C1AA97800CC5921 /* DVTFoundation.framework */,
-				EC78A7971C1AA97800CC5921 /* DVTKit.framework */,
-				EC78A7921C1AA92C00CC5921 /* IDEFoundation.framework */,
-				EC78A7931C1AA92C00CC5921 /* IDEKit.framework */,
+				ECB6EE9A1C1EC88100520DBF /* Cocoa.framework */,
 				ECDFC5031C1AA7260089868F /* AppKit.framework */,
 				ECDFC5051C1AA7260089868F /* Foundation.framework */,
 			);
